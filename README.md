@@ -9,8 +9,10 @@ REST API that predict the similarity of 2 MNIST inputs on Flask. Inputs are arra
 
 ## Make predictions 
 Go to data folder.
+
 `cd data`
 
 Use curl to POST the json file to the server.
+
 `curl -X POST -H "Content-Type: application/json" --data @mnist_same.json 'http://localhost:5000/predict'`
 
